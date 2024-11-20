@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify the transition to E-exma page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8ce236e9-c1c8-46ed-bba0-4112c84f18eb</testCaseGuid>
+</TestCaseEntity>
