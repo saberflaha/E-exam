@@ -32,6 +32,8 @@ boolean home_button = WebUI.verifyElementText(findTestObject('verify and click o
 if (home_button) {
 	WebUI.comment("passed")
 	WebUI.click(findTestObject('verify and click on the home button/Page_- joacademy.com/button homepage'))
+	WebUI.closeBrowser()
+	
 } else {
 	WebUI.comment("Field")
 	WebUI.closeBrowser()

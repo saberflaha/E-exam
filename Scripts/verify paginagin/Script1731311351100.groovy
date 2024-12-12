@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import login.LoginTest as LoginTest
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.JavascriptExecutor
 
 LoginTest login = new LoginTest()
 login.loginJoAcademy('saber22@gmail.com', 'RigbBhfdqOBGNlJIWM1ClA==')
@@ -25,15 +27,25 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/navegate to the E-exam page/Page_- joacademy.com/button e exams'))
 
+TestObject button1 = findTestObject('Object Repository/P-Exma/Page_- joacademy.com/button 1')
+JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
 
-WebUI.scrollToElement(findTestObject('Object Repository/P-Exma/Page_- joacademy.com/button 1'), 30)
-WebUI.waitForElementClickable(findTestObject('Object Repository/P-Exma/Page_- joacademy.com/button 1'), 30)
-WebUI.click(findTestObject('Object Repository/P-Exma/Page_- joacademy.com/button 1'))
+js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", WebUI.findWebElement(button1))
+
+WebUI.waitForElementClickable(button1, 30)
+
+js.executeScript("arguments[0].click();", WebUI.findWebElement(button1))
+
 WebUI.delay(6)
 
-WebUI.scrollToElement(findTestObject('Object Repository/P-Exma/Page_- joacademy.com/button 4'), 30)
-WebUI.waitForElementClickable(findTestObject('Object Repository/P-Exma/Page_- joacademy.com/button 4'), 30)
-WebUI.click(findTestObject('Object Repository/P-Exma/Page_- joacademy.com/button 4'))
+TestObject button4 = findTestObject('Object Repository/P-Exma/Page_- joacademy.com/button 4')
+
+js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", WebUI.findWebElement(button4))
+
+WebUI.waitForElementClickable(button4, 30)
+
+js.executeScript("arguments[0].click();", WebUI.findWebElement(button4))
+
 WebUI.delay(6)
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
