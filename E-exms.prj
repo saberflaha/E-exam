@@ -6,12 +6,12 @@
    <UUID>63a4aef6-4427-4d50-9bc5-83dcd2fd094e</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>9.7.2</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>FREE</modifiedEdition>
-   <modifiedVersion>9.7.2</modifiedVersion>
+   <modifiedVersion>10.0.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\CYBORG\Desktop\E-exms\E-exms.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\saraa.aburumman\Documents\GitHub\E-exam\E-exms.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

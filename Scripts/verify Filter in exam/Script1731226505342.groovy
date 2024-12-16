@@ -14,7 +14,7 @@ WebUI.click(findTestObject('navegate to the E-exam page/Page_- joacademy.com/but
 WebUI.click(findTestObject('Filter in exam/Page_- joacademy.com/Field semester'))
 WebUI.click(findTestObject('Filter in exam/Page_- joacademy.com/select semester 1'))
 
-if (WebUI.verifyElementVisible(findTestObject('Filter in exam/Page_- joacademy.com/Field semester'), FailureHandling.CONTINUE_ON_FAILURE)) {
+if (WebUI.verifyElementVisible(findTestObject('Filter in exam/Page_- joacademy.com/select semester 1'), FailureHandling.CONTINUE_ON_FAILURE)) {
     WebUI.comment("Passed: الفصل تم اختياره بنجاح")
 } else {
     WebUI.comment("Failed: لم يتم العثور على حقل الفصل")
@@ -34,7 +34,7 @@ if (WebUI.verifyElementVisible(findTestObject('Filter in exam/Page_- joacademy.c
 WebUI.click(findTestObject('Filter in exam/Page_- joacademy.com/field material'))
 WebUI.click(findTestObject('Filter in exam/Page_- joacademy.com/select material'))
 
-if (WebUI.verifyElementVisible(findTestObject('Filter in exam/Page_- joacademy.com/field material'), FailureHandling.CONTINUE_ON_FAILURE)) {
+if (WebUI.verifyElementVisible(findTestObject('Filter in exam/Page_- joacademy.com/select material'), FailureHandling.CONTINUE_ON_FAILURE)) {
     WebUI.comment("Passed: المادة تم اختيارها بنجاح")
 } else {
     WebUI.comment("Failed: لم يتم العثور على حقل المادة")

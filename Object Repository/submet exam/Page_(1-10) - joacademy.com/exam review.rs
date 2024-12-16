@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>09b974c3-d3eb-4c8c-bd38-750cf4596d3a</webElementGuid>
+      <webElementGuid>adc78ff9-ae24-4972-bfa1-9b1f26ae764a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tw-max-w-full tw-w-full tw-transition tw-ease-in-out tw-duration-150 tw-font-bold tw-flex tw-items-center tw-justify-center tw-transition tw-ease-in-out tw-duration-150 styles_buttonVariantSolid__ljhsM tw-rounded-[10px] tw-cursor-pointer tw-text-[14px] tw-py-[5px] tw-px-[10px] tw-text-red hover:tw-text hover:border-2 tw-m-auto tw-mb-8 tw-h-14 tw-w-2 tw-rounded-lg tw-border-brand-blue tw-bg-white hover:tw-bg-slate-200</value>
-      <webElementGuid>a0e10fc3-f9e8-4455-bdab-212ea302ec3f</webElementGuid>
+      <webElementGuid>6a1c38e9-66b4-40fc-8ce8-1d6bce0fa19c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b8e14e63-dbcd-4c74-ae94-6aa25e57aa8f</webElementGuid>
+      <webElementGuid>52c0e11f-757f-4a61-944c-33015cf1a633</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>مراجعة الاختبار</value>
-      <webElementGuid>62144ae2-a406-4f9c-9f62-4dbc4735ac75</webElementGuid>
+      <webElementGuid>292e5257-b439-4e5b-82c4-f00ed1f4ae60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-[#F9F9F9]&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-relative tw-flex tw-w-full&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-px-4 md:tw-px-[30px] lg:tw-px-[40px] 2xl:tw-px-[100px] tw-mx-auto tw-w-full lg:tw-w-[calc(100vw-280px)] tw-relative !tw-w-full !tw-overflow-hidden&quot;]/div[1]/div[1]/div[@class=&quot;tw-m-20 max-md:tw-m-9 tw-rounded-lg tw-bg-[#002f57] tw-p-8 tw-text-center&quot;]/div[@class=&quot;tw-m-auto tw-flex tw-w-1/3&quot;]/button[@class=&quot;tw-max-w-full tw-w-full tw-transition tw-ease-in-out tw-duration-150 tw-font-bold tw-flex tw-items-center tw-justify-center tw-transition tw-ease-in-out tw-duration-150 styles_buttonVariantSolid__ljhsM tw-rounded-[10px] tw-cursor-pointer tw-text-[14px] tw-py-[5px] tw-px-[10px] tw-text-red hover:tw-text hover:border-2 tw-m-auto tw-mb-8 tw-h-14 tw-w-2 tw-rounded-lg tw-border-brand-blue tw-bg-white hover:tw-bg-slate-200&quot;]</value>
-      <webElementGuid>fb7d64c6-baa5-4a1e-a0e6-3495ae312690</webElementGuid>
+      <webElementGuid>f3ee5d3a-3fbb-480e-ac59-301571f4c919</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>a52a7672-2912-426f-9d33-5e096d264853</webElementGuid>
+      <webElementGuid>ab66f81a-dca2-4a5d-9573-a71e29f5ddb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/div/div/div[3]/button</value>
-      <webElementGuid>0180c040-0e0a-432d-bb76-b99418f3d9d1</webElementGuid>
+      <webElementGuid>ccee8b61-44a0-4077-90c1-e6e1a8428be8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='عدد الاسئلة'])[1]/following::button[1]</value>
-      <webElementGuid>83109ef8-8e9d-4bb9-afa7-123314be8065</webElementGuid>
+      <webElementGuid>c85aed12-039a-4abd-aa54-56d6f6491856</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='/'])[1]/following::button[1]</value>
-      <webElementGuid>e18796bb-7e47-44b7-9769-6490f1b0450f</webElementGuid>
+      <webElementGuid>ca5733af-5410-4b37-b593-7e06ad8f6dca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='تذييل جو أكاديمي'])[1]/preceding::button[1]</value>
-      <webElementGuid>ff552adf-b4b6-4448-8833-3ea9ad71a183</webElementGuid>
+      <webElementGuid>c1575a2e-0819-4e1e-8688-e9ae494f5f34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div[3]/button</value>
-      <webElementGuid>db520d2c-ca6b-425f-8053-1bb13dfa2fea</webElementGuid>
+      <webElementGuid>a9600f2b-66a8-41ef-848b-789912dc69c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'مراجعة الاختبار' or . = 'مراجعة الاختبار')]</value>
-      <webElementGuid>bfa32e99-b708-435a-9450-7fadf79ba287</webElementGuid>
+      <webElementGuid>cde620da-0cc4-4518-879a-c3b926b8bbce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

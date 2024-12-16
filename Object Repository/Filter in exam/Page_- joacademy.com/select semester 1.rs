@@ -6,12 +6,12 @@
    <elementGuidId>12492f64-804a-4afc-800a-6b575382a075</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#react-select-2-option-0</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='فصل أول']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='فصل ثاني'])[1]/preceding::div[1]</value>
+         <key>CSS</key>
+         <value>#react-select-2-option-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>5bd25c4c-adec-41be-8e2c-12478d33e6fc</webElementGuid>
+      <webElementGuid>8d7f1efd-d715-4cea-8922-cd3b3c874ce0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value> css-1gjqhh6-option</value>
-      <webElementGuid>7dc2964a-0257-4b5f-b25d-181f298b6a16</webElementGuid>
+      <webElementGuid>4a31f045-cfea-4de4-a064-a75d78ff0a9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ea018395-fdf2-4d0e-8812-cc805911c4af</webElementGuid>
+      <webElementGuid>5ce9d9e0-6bb2-4b96-b235-0695a4cd463a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-select-2-option-0</value>
-      <webElementGuid>5290688e-3d92-4963-8cc2-e1828519ab92</webElementGuid>
+      <webElementGuid>716da27c-8368-4352-b206-40b9a400959f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>e628c70a-b770-4680-93a1-953344457050</webElementGuid>
+      <webElementGuid>35a35dff-ab3a-4a15-b5c4-a03b19854f4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>445411c5-8a34-48c0-97af-18fc2ff96fbc</webElementGuid>
+      <webElementGuid>93dedd2f-a9be-418c-89f9-69806d19cd8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8102e964-20b9-44fd-ba44-1af669af5a1b</webElementGuid>
+      <webElementGuid>32ef12fa-0cd8-43a7-9ebb-13c0ad00db4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>text</name>
       <type>Main</type>
       <value>فصل أول</value>
-      <webElementGuid>0581992c-539c-4eea-a5b6-8c3052f6bb5d</webElementGuid>
+      <webElementGuid>899870d8-a2f7-48c9-9dcf-6f35cce71747</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-select-2-option-0&quot;)</value>
-      <webElementGuid>7b89075c-c40a-4471-b2b9-4cd6739c992d</webElementGuid>
+      <webElementGuid>15e8f232-1d7b-4243-90a6-678ff4e0cbfe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='react-select-2-option-0']</value>
-      <webElementGuid>e514637e-c002-4e7c-9fa5-6a6a83809121</webElementGuid>
+      <webElementGuid>8c207c7f-74e1-4ce2-bbbc-64a926024a3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='react-select-2-listbox']/div</value>
-      <webElementGuid>c17f5300-e3c1-4743-bacb-9b47f97b9515</webElementGuid>
+      <webElementGuid>bdbab484-8d76-4665-926f-51a10cb1161f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='اختر الفصل'])[1]/following::div[6]</value>
-      <webElementGuid>95c42b7d-d98c-458f-83a1-57daeb588953</webElementGuid>
+      <webElementGuid>bf4b1df0-63d9-4ac8-816d-9d267ab17e30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='الفصل'])[1]/following::div[10]</value>
-      <webElementGuid>c7c5fafb-d74e-4282-8273-20d611d893cd</webElementGuid>
+      <webElementGuid>c22e9ac1-bac7-44cf-a3fa-897c851c7504</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='فصل ثاني'])[1]/preceding::div[1]</value>
-      <webElementGuid>96aa7a19-49f3-49ff-b5e3-fac22e9f3c47</webElementGuid>
+      <webElementGuid>faf22410-fea1-4e55-9b49-7f0432f661b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='الصف'])[1]/preceding::div[2]</value>
-      <webElementGuid>be27eee4-b9ae-4e0f-82bf-d35092d124a6</webElementGuid>
+      <webElementGuid>1cbbb6df-0202-4dd4-8f64-693ccda7585e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='فصل أول']/parent::*</value>
-      <webElementGuid>caf05dd1-1bfd-4dba-9c29-56dbe6dfb710</webElementGuid>
+      <webElementGuid>6df0be29-e13d-4de7-bd65-7b076a71b763</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div[2]/div/div</value>
-      <webElementGuid>fca86283-9768-4bd8-ae78-3250fe1780e3</webElementGuid>
+      <webElementGuid>346ddcb6-5e11-4e02-9990-774a98fac9ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,6 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'react-select-2-option-0' and (text() = 'فصل أول' or . = 'فصل أول')]</value>
-      <webElementGuid>dacb6c49-ee3e-4fa3-8751-022516b39b27</webElementGuid>
+      <webElementGuid>e3057a35-96d6-49f0-ada8-6dc5ee001cc9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

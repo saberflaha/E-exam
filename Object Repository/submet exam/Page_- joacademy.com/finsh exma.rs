@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;__next&quot;]/div[1]/div[2]/div[2]/div[2]/div/div/div[5]/div/div[2]/button</value>
+         <value>//button[(text() = 'save_exam' or . = 'save_exam')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.tw-transition.tw-w-full[type='button']</value>
+         <value>//button[.//p[text()='save_exam']]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>51da1a0a-c06b-442e-bab3-8cf82ca4252e</webElementGuid>
+      <webElementGuid>e6603aaf-30b4-4564-8bf1-6c7bc5a42e41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tw-max-w-full tw-w-full tw-transition tw-ease-in-out tw-duration-150 tw-font-bold tw-flex tw-items-center tw-justify-center tw-transition tw-ease-in-out tw-duration-150 styles_buttonVariantSolid__ljhsM styles_buttonColorBlue__0VHnR tw-rounded-[10px] tw-cursor-pointer tw-text-[20px] tw-py-[10px] tw-px-[20px] max-sm:tw-text-[16px] max-sm:tw-py-[8px] max-sm:tw-px-[10px] tw-p-30 tw-pointer-events-auto tw-border-brand-blue tw-bg-[#327bf9] tw-font-light tw-text-white hover:tw-border-2 hover:tw-border-solid hover:tw-bg-white hover:tw-font-bold hover:tw-text-brand-blue</value>
-      <webElementGuid>1a99ec81-607d-4cd2-a139-1f0fef8b0b63</webElementGuid>
+      <webElementGuid>4103d378-9db5-4aef-ac58-283f84dd029b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f5396fb0-0cd2-4ce6-b297-00f2c5bbb485</webElementGuid>
+      <webElementGuid>b3698bf3-b80a-4f1b-a3c3-1e4f89302b7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>إنهاء الاختبار و إظهار النتيجة</value>
-      <webElementGuid>d37631be-56fe-448e-aa3f-8c93435ee9a3</webElementGuid>
+      <webElementGuid>73e5e025-cfca-488d-a9c2-99c279f4db09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-[#F9F9F9]&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-relative tw-flex tw-w-full&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-px-4 md:tw-px-[30px] lg:tw-px-[40px] 2xl:tw-px-[100px] tw-mx-auto tw-w-full lg:tw-w-[calc(100vw-280px)] tw-relative !tw-w-full !tw-overflow-hidden&quot;]/div[1]/div[1]/div[@class=&quot;tw-m-auto tw-mb-20 tw-mt-10 tw-flex tw-h-14 tw-w-1/2 tw-justify-center&quot;]/button[@class=&quot;tw-max-w-full tw-w-full tw-transition tw-ease-in-out tw-duration-150 tw-font-bold tw-flex tw-items-center tw-justify-center tw-transition tw-ease-in-out tw-duration-150 styles_buttonVariantSolid__ljhsM styles_buttonColorBlue__0VHnR tw-rounded-[10px] tw-cursor-pointer tw-text-[20px] tw-py-[10px] tw-px-[20px] max-sm:tw-text-[16px] max-sm:tw-py-[8px] max-sm:tw-px-[10px] tw-p-30 tw-pointer-events-auto tw-border-brand-blue tw-bg-[#327bf9] tw-font-light tw-text-white hover:tw-border-2 hover:tw-border-solid hover:tw-bg-white hover:tw-font-bold hover:tw-text-brand-blue&quot;]</value>
-      <webElementGuid>d6a56a8b-fc85-4cee-bc7e-9639b357f880</webElementGuid>
+      <webElementGuid>0778a188-e2e0-475b-ac43-be5e29a6c645</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[22]</value>
-      <webElementGuid>ec10fa83-c8c5-4a4b-b653-9075e4a6f645</webElementGuid>
+      <webElementGuid>b30cd7b6-b92b-40f4-a629-c69576fbe636</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/div/div[9]/button</value>
-      <webElementGuid>2d3913ee-e23b-4116-8d26-a0f022457080</webElementGuid>
+      <webElementGuid>25237cfc-d02b-4f11-9bb4-b7bbc015ef6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='False'])[4]/following::button[1]</value>
-      <webElementGuid>4be055fb-2075-468b-b69a-4d445e4a8e21</webElementGuid>
+      <webElementGuid>d5b10dca-75fd-47b2-b2f3-16fc5421f1fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='True'])[4]/following::button[2]</value>
-      <webElementGuid>7d35d4e8-d6c0-4f33-bd93-7a0c74baa48f</webElementGuid>
+      <webElementGuid>6019cc78-8966-44ba-bd08-2f2399347872</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='تذييل جو أكاديمي'])[1]/preceding::button[1]</value>
-      <webElementGuid>e5c2f23d-0afd-4d45-b859-b6d18f4a23fa</webElementGuid>
+      <webElementGuid>d181d53d-7a89-4267-bdbf-901860df06b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[9]/button</value>
-      <webElementGuid>7f2eb540-32a1-4403-bd7d-8e0822fd4818</webElementGuid>
+      <webElementGuid>b7b63269-d63c-4630-81b4-7b8118762ea2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'إنهاء الاختبار و إظهار النتيجة' or . = 'إنهاء الاختبار و إظهار النتيجة')]</value>
-      <webElementGuid>a3ae188a-a0b8-420c-b411-2448de44b7ea</webElementGuid>
+      <webElementGuid>e1230f17-3e4a-4573-8d0f-15de3b8262dd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

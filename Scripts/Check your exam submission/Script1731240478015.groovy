@@ -90,12 +90,27 @@ def runTestCase3() {
     WebUI.waitForElementClickable(finishExamButton, 30)
     js.executeScript("arguments[0].click();", WebUI.findWebElement(finishExamButton))
     WebUI.comment('✅ تم النقر على زر إنهاء الامتحان.')
-
     // ⏸️ الانتظار قليلاً قبل التحقق من النتيجة
     WebUI.delay(5)
 
     // 🔍 التحقق من عناصر "النتيجة"
-    WebUI.verifyElementVisible(findTestObject('Object Repository/submet exam/Page_(1-10) - joacademy.com/exam review'))
+    //WebUI.verifyElementVisible(findTestObject('Object Repository/submet exam/Page_(1-10) - joacademy.com/exam review'))
+	
+	TestObject resultText = new TestObject()
+	resultText.addProperty('xpath', ConditionType.EQUALS, "//p[contains(text(), 'نتيجة اختبارك هي')]")
+	
+	// Wait for the element to be visible (timeout: 10 seconds)
+	WebUI.waitForElementVisible(resultText, 10)
+	
+	// Verify the element is present on the page
+	boolean isTextPresent = WebUI.verifyElementPresent(resultText, 5, FailureHandling.CONTINUE_ON_FAILURE)
+	
+	// Check and log result
+	if (isTextPresent) {
+		println("The text 'نتيجة اختبارك هي' exists in the code.")
+	} else {
+		println("The text 'نتيجة اختبارك هي' does NOT exist in the code.")
+	}
 
 
     // ⛔️ إغلاق المتصفح

@@ -6,12 +6,12 @@
    <elementGuidId>9c0c7dcb-e3ff-4d5c-bd2c-df06b6a91840</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#react-select-4-option-0</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='العلوم']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id = 'react-select-4-option-0' and (text() = 'العلوم' or . = 'العلوم')]</value>
+         <key>CSS</key>
+         <value>#react-select-4-option-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>dba4e432-c0fd-422d-8b15-beaa280497b5</webElementGuid>
+      <webElementGuid>6d6fc1ec-d648-44dd-b0b3-60d0575dd0ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value> css-1gjqhh6-option</value>
-      <webElementGuid>b365736a-56c9-46a6-8f34-cefce474da4a</webElementGuid>
+      <webElementGuid>a9e71094-7366-44b9-a06f-2fc7cfe3a624</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>843baa87-ddf9-4e27-930e-67a6df0a900c</webElementGuid>
+      <webElementGuid>e5db454f-f365-43c6-ad2d-636a322aac13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-select-4-option-0</value>
-      <webElementGuid>601376ea-d0de-4869-a9c3-6470535f3d1e</webElementGuid>
+      <webElementGuid>794d08e0-a0a4-4f65-9b2a-2be455432ccc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>7ff8a575-b265-4f2a-af5f-5871d50bd93f</webElementGuid>
+      <webElementGuid>9f055890-efa6-44e8-bda2-7ffb78981118</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>8dab79d6-4154-4856-93fd-25d6d985b26c</webElementGuid>
+      <webElementGuid>bc0ce9fe-6c0f-4546-9fff-00e652c330a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1e8fe3cf-4f81-4c55-846d-c127db2d41ff</webElementGuid>
+      <webElementGuid>5631df9b-7647-4e5c-a003-25b48879a8ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>text</name>
       <type>Main</type>
       <value>العلوم</value>
-      <webElementGuid>a55d3d9c-5d3d-4e53-a627-eb52653db4f0</webElementGuid>
+      <webElementGuid>5d5d84ec-8385-4924-b598-c219caceb13e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-select-4-option-0&quot;)</value>
-      <webElementGuid>16d65f80-0677-43ce-ac8b-9732b087932e</webElementGuid>
+      <webElementGuid>3fdb4c2e-fdd4-45a1-a53b-aa29c286f7d3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='react-select-4-option-0']</value>
-      <webElementGuid>84f1aebd-994c-40d6-9ee0-b3bae1e42593</webElementGuid>
+      <webElementGuid>6ef81f74-f7d2-4586-9448-b74737bb642e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='react-select-4-listbox']/div</value>
-      <webElementGuid>03a232aa-c671-4d59-a108-d951f17b5e9b</webElementGuid>
+      <webElementGuid>f4e6b052-4424-4d3c-abb6-54cc6be120af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='اختر المادة'])[1]/following::div[6]</value>
-      <webElementGuid>9a921abf-0691-498b-a022-1f3ecbf8e4a5</webElementGuid>
+      <webElementGuid>85849316-db2c-46e1-a108-288446062c16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='المادة'])[1]/following::div[10]</value>
-      <webElementGuid>8bcd6f47-f1a8-4410-8b81-724f803c2a63</webElementGuid>
+      <webElementGuid>665a8b87-972e-450c-bb45-7912012d6466</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='رياضيات'])[1]/preceding::div[1]</value>
-      <webElementGuid>139d75cf-47c9-433c-a05e-1bb96fc9eab8</webElementGuid>
+      <webElementGuid>baa84605-b28e-4df0-9cdf-4910179387c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='اللغة العربية'])[1]/preceding::div[2]</value>
-      <webElementGuid>ebcd1ed0-0eed-4d8d-980f-279549374197</webElementGuid>
+      <webElementGuid>a7f203a0-fe63-4e7d-94b4-9fc7e89539c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='العلوم']/parent::*</value>
-      <webElementGuid>38ff9ee8-c5df-4827-9141-eb0dd41de204</webElementGuid>
+      <webElementGuid>578af22f-54b8-4885-b078-cd0fd2669a10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[3]/div/div[2]/div/div</value>
-      <webElementGuid>25b298af-0a2e-4449-b14e-df1f60a2068e</webElementGuid>
+      <webElementGuid>340b6432-500c-46df-a2dc-57ce6f877e17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,6 +165,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'react-select-4-option-0' and (text() = 'العلوم' or . = 'العلوم')]</value>
-      <webElementGuid>3f408b2f-8e95-49c2-bf1d-eff1f2e98749</webElementGuid>
+      <webElementGuid>b3735220-cb97-4104-8387-9ac190c709f1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
